@@ -1,0 +1,22 @@
+{
+    "name": "hadefication/nirvana",
+    "description": "Your package description here",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hadefication\\Nirvana\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hadefication\\Nirvana\\NirvanaServiceProvider"
+            ]
+        }
+    }
+}
